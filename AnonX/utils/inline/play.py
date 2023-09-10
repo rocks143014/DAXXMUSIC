@@ -14,25 +14,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     anon = math.floor(percentage)
     if 0 < anon <= 10:
-        bar = "✦ᴅᴀxx✦—————————"
+        bar = "✦ʀᴏᴄᴋʏ✦—————————"
     elif 10 < anon < 20:
-        bar = "—✦ᴅᴀxx✦————————"
+        bar = "—✦ʀᴏᴄᴋʏ✦————————"
     elif 20 <= anon < 30:
-        bar = "——✦ᴅᴀxx✦———————"
+        bar = "——✦ʀᴏᴄᴋʏ✦———————"
     elif 30 <= anon < 40:
-        bar = "———✦ᴅᴀxx✦——————"
+        bar = "———✦ʀᴏᴄᴋʏ✦——————"
     elif 40 <= anon < 50:
-        bar = "————✦ᴅᴀxx✦—————"
+        bar = "————✦ʀᴏᴄᴋʏ✦—————"
     elif 50 <= anon < 60:
-        bar = "—————✦ᴅᴀxx✦————"
+        bar = "—————✦ʀᴏᴄᴋʏ✦————"
     elif 60 <= anon < 70:
-        bar = "——————✦ᴅᴀxx✦———"
+        bar = "——————✦ʀᴏᴄᴋʏ✦———"
     elif 70 <= anon < 80:
-        bar = "———————✦ᴅᴀxx✦——"
+        bar = "———————✦ʀᴏᴄᴋʏ✦——"
     elif 80 <= anon < 95:
-        bar = "————————✦ᴅᴀxx✦—"
+        bar = "————————✦ʀᴏᴄᴋʏ✦—"
     else:
-        bar = "—————————✦ᴅᴀxx✦"
+        bar = "—————————✦ʀᴏᴄᴋʏ✦"
 
     buttons = [
         [
@@ -69,7 +69,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/daxxsir3"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/ROCKY_ISS_BACK"
             )
         ],
         [
@@ -87,25 +87,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     anon = math.floor(percentage)
     if 0 < anon <= 10:
-        bar = "✦ᴅᴀxx✦—————————"
+        bar = "✦ʀᴏᴄᴋʏ✦—————————"
     elif 10 < anon < 20:
-        bar = "—✦ᴅᴀxx✦————————"
+        bar = "—✦ʀᴏᴄᴋʏ✦————————"
     elif 20 <= anon < 30:
-        bar = "——✦ᴅᴀxx✦———————"
+        bar = "——✦ʀᴏᴄᴋʏ✦———————"
     elif 30 <= anon < 40:
-        bar = "———✦ᴅᴀxx✦——————"
+        bar = "———✦ʀᴏᴄᴋʏ✦——————"
     elif 40 <= anon < 50:
-        bar = "————✦ᴅᴀxx✦—————"
+        bar = "————✦ʀᴏᴄᴋʏ✦—————"
     elif 50 <= anon < 60:
-        bar = "—————✦ᴅᴀxx✦————"
+        bar = "—————✦ʀᴏᴄᴋʏ✦————"
     elif 60 <= anon < 70:
-        bar = "——————✦ᴅᴀxx✦———"
+        bar = "——————✦ʀᴏᴄᴋʏ✦———"
     elif 70 <= anon < 80:
-        bar = "———————✦ᴅᴀxx✦——"
+        bar = "———————✦ʀᴏᴄᴋʏ✦——"
     elif 80 <= anon < 95:
-        bar = "————————✦ᴅᴀxx✦—"
+        bar = "————————✦ʀᴏᴄᴋʏ✦—"
     else:
-        bar = "—————————✦ᴅᴀxx✦"
+        bar = "—————————✦ʀᴏᴄᴋʏ✦"
 
     buttons = [
         [
@@ -139,7 +139,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/daxxsir3"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/ROCKY_ISS_BACK"
             )
         ],
         [
@@ -181,7 +181,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/daxxsir3"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/ROCKY_ISS_BACK"
             )
         ],
         [
@@ -220,7 +220,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/daxxsir3"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/ROCKY_ISS_BACK"
             )
         ],
         [
@@ -352,7 +352,7 @@ close_keyboard = InlineKeyboardMarkup(
                         text="ᴄʟᴏꜱᴇ", callback_data="close"
                     ),
                     InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/daxxsir3"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/ROCKY_ISS_BACK"
                     )
                 ]    
             ]
@@ -391,7 +391,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/daxxsir3"
+                text="ᴏᴡɴᴇʀ", url=f"https://t.me/ROCKY_ISS_BACK"
             )
         ],
         [
