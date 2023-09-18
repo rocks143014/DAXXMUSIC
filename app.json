@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "22584448",
+        "value": "21806056",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "70ab94a42bd3c9c855219e7a2da21626",
+        "value": "cfa0fa40beab12195c5c51794536530f",
         "required": true
       },
       "BOT_TOKEN": {
@@ -44,7 +44,7 @@
       },
       "STRING_SESSION": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "BQB_T-V-q4s-EwLaee3F86CkCEzrQxmXekziG7wYUnzPavj-esQssKj27NUCi5OOUE7Djr4Jv9657nAes6Sbj7gsA66Uod0Q58-6tGQ7J1O-XCDJWr1WX8Mkc0OOz6DirjADwf6N5mm45aZQWFaH64PAFpjKcbv3EckgozZ6K1Z6ut0D5A_k5hLLuboNLNgC9Q8tKMWseA1qe57XmyIJP8biV1KFITNexzKOjIEAZ35CFPJelWCWlqWJT4Dgzuo4KMeaBPP8112-EGdXwCCRhNh0Xc9sPK0Pf2YmFok7XVchxkNM5YRKiJwMAGqGC-UlFdNTK1akV9KYrHk31vPVlTSNAAAAATRG5uAA",
+        "value": "BQBPzWUrQQ02DTB8sknuhDG2Kc-WS4RYGbg8fx8SS-YahjFAT5DULBQm3CU4qLFQkW9YqTRQuTZ-kC6n2E6D_LHyDrem0Ckq7fErcXr7DdFFQudOQbHPmYmOJLq43-WpiQiVNtV4g74tiqdtCMjnjbKF-TcVGLuXysjat8DQoptsG6iQUNB92YxEzC9jOqlbhgpXtCvdriqtlSy_Fl7IOVCu3RamTyBnC1FDCn5kiAwmXFNUAOCo31l2vSGmCtV38-Zcpn1sgkXsaadpdSkdNRtMUoREglJLRs-6HepcMmvhojriIb1UlTGTardpIg1PcXPeQSJGjynvLFdypA0cL16aAAAAAW0djsIA",
         "required": true
       },
       "HEROKU_API_KEY": {
